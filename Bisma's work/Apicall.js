@@ -11,20 +11,20 @@
 //     let data1 = Reviews.map((review) => review.rating)
 //     console.log(data1)
 // }
-// getData();
+//getData();
 
-// let url1 = "https://dummyjson.com/posts";
-// async function post(){
-//     let response =  await fetch(url1)
-//     let post = await response.json()
-//     console.log(post);
-// }
-// post();
-
-let url2 = "https://dummyjson.com/quotes";
-async function dummy(params) {
-    let res1 = await fetch(url2)
-    let quotes = await res1.json()
-    console.log(quotes);
+let url1 = "https://dummyjson.com/posts";
+async function post(){
+    let response =  await fetch(url1)
+    let post = await response.json()
+    console.log(post);
 }
-dummy();
+post()
+
+// let url2 = "https://dummyjson.com/quotes";
+// async function dummy(params) {
+//     let res1 = await fetch(url2)
+//     let quotes = await res1.json()
+//     console.log(quotes);
+// }
+// dummy();

@@ -13,7 +13,7 @@
     
 // })
 // console.log(iter)
-
+//jb array ky andr object ya object ky andr aaray to dot map sy access krty hm
 // let obj = {
 //     products: [
 //         {
@@ -55,3 +55,4 @@ let marks = [
 marks.forEach((mark)=>{
     console.log(mark.course)
 })
+// for each or map method same kam krty but map new array bna dyta or foreach wohi array dyta
