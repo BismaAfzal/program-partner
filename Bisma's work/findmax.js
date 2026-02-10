@@ -7,4 +7,4 @@ let maxs = arr.reduce((max,el) =>{
         return max;
     }
 })
-console.log(maxs)
+console.log(maxs);
